@@ -7,9 +7,9 @@ SQL: Consultas executadas no AWS Athena para exploração e extração de dados.
 AWS S3: Armazenamento seguro dos arquivos CSV, tanto dos dados de entrada quanto dos resultados.
 AWS Athena: Ambiente utilizado para execução das consultas SQL, proporcionando um fluxo de trabalho rápido e escalável.
 Python (Pandas, Matplotlib, Seaborn): Ferramentas de análise e visualização de dados para gerar gráficos e insights adicionais.
+
 🗂️ Estrutura do Projeto
-markdown
-Copiar código
+
 ├── sqlEBAC
 │   ├── projeto
 │   │   ├── credit.csv                   # Base de dados principal
@@ -18,6 +18,8 @@ Copiar código
 │   │   │   ├── query2.sql
 │   │   │   └── ...
 │   └── README.md                        # Arquivo de documentação do projeto
+
+
 📊 Principais Insights
 Abaixo estão alguns dos insights mais relevantes que obtivemos durante o projeto:
 
@@ -36,19 +38,15 @@ Este projeto me permitiu aprofundar o domínio sobre a integração de dados no 
 📝 Como Reproduzir este Projeto
 Clone o repositório:
 
-bash
-Copiar código
 git clone https://github.com/seu-usuario/projeto-analise-credito
 cd projeto-analise-credito
-Instale as dependências necessárias:
+
 
 É recomendável criar um ambiente virtual para gerenciar as dependências:
-bash
-Copiar código
+
 conda create -n seu-ambiente python=3.10
 conda activate seu-ambiente
 pip install -r requirements.txt
-Configuração de Ambiente AWS:
 
 Certifique-se de ter suas credenciais AWS configuradas localmente para acessar o S3 e o Athena.
 Execução das Consultas SQL no AWS Athena:
@@ -57,6 +55,7 @@ Acesse o AWS Athena, configure o bucket S3 de resultados (ebac-leone-query-resul
 Análise dos Resultados com Python:
 
 Os arquivos de consulta gerados podem ser lidos em Python com Pandas para análise e visualização.
-👋 Sobre Mim
-Sou um desenvolvedor Python e estudante de Data Science, com um foco crescente na utilização de tecnologias de cloud e análise de dados para transformar informação em ação. Se você gostou do projeto ou tem alguma sugestão, estou disponível para trocar ideias!
+
+👋 Quem Sou Eu
+Leone Lúcio é desenvolvedor Python e estudante de Data Science, com um foco crescente na utilização de tecnologias de cloud e análise de dados para transformar informação em ação. Se você gostou do projeto ou tem alguma sugestão, estou sempre aberto a feedbacks.
 
